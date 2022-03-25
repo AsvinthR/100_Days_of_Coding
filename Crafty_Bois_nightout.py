@@ -16,8 +16,8 @@ choice1 = input("You arrive at Savo's house and he asks you which anime you want
 if choice1 == "jujutsu kaisen":
     choice2 = input("You have a great time and end up meeting Kuvindu for dinner where he starts talking about kpop. Do you listen? Yes or No? \n").lower()
     if choice2 == "no":
-        choice3 = input("Thank god you did not put up with that. You finally decide to get some desert but where does Pranav want to get desert? Deserts by Night, Vanilla or Maccas? \n").lower()
-        if choice3 == "deserts by night":
+        choice3 = input("Thank god you did not put up with that. You finally decide to get some dessert but where does Pranav want to get dessert? Desserts by Night, Vanilla or Maccas? \n").lower()
+        if choice3 == "desserts by night":
             print("You had a classic awesome night out!")
         elif choice3 == "vanilla":
             print("You went to Oakleigh and Ritza\'s obscenities get you killed by a group of wogs")
