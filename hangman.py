@@ -1,4 +1,5 @@
 import random
+import os
 from hangman_util import logo, word_list, stages
 
 print(logo)
@@ -19,7 +20,6 @@ guess_list = []
 
 while not end_of_game:
     guess = input("Guess a letter: ").lower()
-    
     
     if guess in guess_list:
       print(f"You have already guessed {guess}")
@@ -46,4 +46,5 @@ while not end_of_game:
           end_of_game = True
           print("You win.")
       guess_list.append(guess)
+      os.system("cls")
       print(stages[lives])
